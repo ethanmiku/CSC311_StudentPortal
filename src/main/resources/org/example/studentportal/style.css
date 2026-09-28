@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: #f4f7fb;
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2563eb;
+}
+
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555555;
+}
+
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 25px;
+    -fx-background-radius: 8px;
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
