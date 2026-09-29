@@ -24,3 +24,21 @@
 .cancel-button:hover {
     -fx-background-color: #c5c5c5;
 }
+
+.welcome-text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.logout-button {
+    -fx-font-size: 12px;
+    -fx-padding: 6px 14px;
+    -fx-background-color: #006456;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+}
+
+.logout-button:hover {
+    -fx-background-color: #004846;
+}

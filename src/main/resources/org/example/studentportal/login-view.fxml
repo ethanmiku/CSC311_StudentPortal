@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.studentportal.HelloController">
    <children>
       <VBox alignment="CENTER_LEFT" layoutX="50.0" layoutY="90.0" prefHeight="220.0" prefWidth="250.0" spacing="15.0">
          <children>
@@ -20,8 +19,8 @@
             <PasswordField prefHeight="40.0" prefWidth="240.0" promptText="Password" />
             <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
                <children>
-                  <Button mnemonicParsing="false" text="Login" />
-                  <Button mnemonicParsing="false" styleClass="cancel-button" text="Cancel" />
+                  <Button mnemonicParsing="false" onAction="#onLoginButtonClick" text="Login" />
+                  <Button mnemonicParsing="false" onAction="#onCancelButtonClick" styleClass="cancel-button" text="Cancel" />
                </children>
             </HBox>
          </children>
